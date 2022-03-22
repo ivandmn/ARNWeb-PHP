@@ -1,0 +1,69 @@
+body, html {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+#topNavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.menuElements {
+    float: left;
+}
+  
+.menuText, .menuOption {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menuText {
+    font-size: 18px;
+}
+  
+.menuOption:hover {
+    background-color: #111;
+}
+
+.DNAElements, .RNAElements, .AminoElements{
+    display: block;
+}
+
+#inputDNA, #inputRNA{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#fieldsetDNA, #fieldsetRNA{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.error{
+    color:red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#fieldsetRNAOutput, #fieldsetDNAOutput, #fieldsetAminoOutput{
+    margin-top: 12px;
+    margin-left: 12px;
+    display:none;
+}
+
+.RanDNAInput, .RanRNAInput{
+    display: inline;
+}
+
+#DNASubmit, #RNASubmit{
+    display: block;
+    margin-top: 5px;
+}
