@@ -1,5 +1,9 @@
 <?php
-    require_once 'class/Sequence.class.php';
+
+use class\RNASeq;
+use class\Sequence;
+
+require_once 'class/Sequence.class.php';
     require_once 'class/DNA.class.php';
     require_once 'class/RNA.class.php';
     ini_set('display_errors', 1);
